@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Dependency_Injection
 {
-    public class Shotgun: IWeapon
+    public class Rifle: IWeapon
     {
         public string Shoot()
         {
-            return "Shoot Shotgun";
+            return "Shoot Rifle";
         }
     }
 }
